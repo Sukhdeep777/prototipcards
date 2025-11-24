@@ -1,42 +1,42 @@
-body{
+body{ /*Body en el centro*/
     font-family: Arial, Helvetica, sans-serif;
     background-color: #E5E5E5;
     display: flex;
     justify-content: center;
 }
 
-.flex{
+.flex{ /*para poner flex*/
     display: flex;
 }
 
-.column{
+.column{ /*Direction flex en columna*/
     flex-direction: column;
 }
 
-.center{
+.center{ /*para ponerlo en el centro con el mismo tamaño del prototipo*/
     background-color: #FFFFFF;
     width: 1440px;
     height: 1272px;
 }
 
-.margin-text{
+.margin-text{ /*Margin del div donde esta el texto*/
     margin-top: 137px;
     margin-left: 64px;
 }
 
-.margin-images{
+.margin-images{ /*margen de las imagenes*/
     margin-left: 64px;
 }
 
-.margin-top-image{
-    margin-top: 65px;
+.margin-top-image{ /*margen entre imagenes de arriba y abajo*/
+    margin-top: 64px;
 }
 
-.margin-top2{
+.margin-top2{ /*margen de arriba para la segunda imagen de la derecha*/
     margin-top: 217px;
 }
 
-.margin-top3{
+.margin-top3{ /*Margin para las imagenes en horizontal que hay 3 */
     margin-top: 64px;
 }
 
@@ -50,17 +50,17 @@ body{
     height: 144px;
 }
 
-h1{
+h1{ /*Tamaño del h1*/
     font-size: 58px;
     font-weight: 500;
 }
 
-h2{
+h2{ /*Quitar negrita y ponerle tamaño*/
     font-weight: normal;
     font-size: 26px;
 }
 
-p{
+p{ /*Un texto para que parezca un boton*/
     background-color: #252525;
     color: #FFFFFF;
     border-radius: 16px;
@@ -72,11 +72,11 @@ p{
     justify-content: center;
 } 
 
-.gap32{
+.gap32{ /*Espacio entre imagenes*/
     gap: 32px;
 }
 
-a{
+a{ /*Quitar decoracion al enlace para que parezca un boton*/
     text-decoration: none;
     color: #FFFFFF;
 }

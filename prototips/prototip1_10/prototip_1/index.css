@@ -75,6 +75,6 @@ a{ /*Quitar decoración del enlace y ponerle color blanco*/
     background-color: #FFFFFF;
 }
 
-.margin-h{
+.margin-h{ /*Para el margen horizontal*/
     margin: 0 64px;
 }
