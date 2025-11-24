@@ -1,0 +1,18 @@
+body{ /*Un body con un fondo de color blanco*/
+    background-color: #FFFFFF   ;
+}
+
+
+h1{
+    font-size: 64px;
+}
+
+.text-center{
+   display: flex;
+   justify-content: center; 
+}
+
+.text-align{
+    text-align: center;
+    line-height: 80px;
+}
