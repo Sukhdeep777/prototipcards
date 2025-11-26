@@ -33,7 +33,7 @@ h1{
 }
 
 .width-text{
-    margin-left: 64px;
+    margin-left: 84px;
     width: 653px;
     height: 460px;
 }
@@ -60,4 +60,47 @@ h2{
     justify-content: center;
     align-items: center;
     font-size: 24px;
+    a{
+        color: #FFFFFF;
+    }
+}
+
+.button2{
+    border-radius: 16px;
+    border: 1px solid black;
+    width: 254px;
+    height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px; 
+    a{
+        color: #000000;
+    }
+}
+
+.gap48{
+    gap: 48px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.list{
+    border: 1px solid black;
+    border-radius: 24px;
+    margin-top: 80px;
+    gap: 64px;
+    width: 652px;
+    height: 118px;
+    margin-left: 64px;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-items{
+    width: 91px;
+    height: 70px;
+    margin: 8px;
 }
