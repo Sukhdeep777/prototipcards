@@ -60,9 +60,10 @@ h2{
     justify-content: center;
     align-items: center;
     font-size: 24px;
-    a{
-        color: #FFFFFF;
-    }
+}
+
+.button1 a{
+    color: #FFFFFF;
 }
 
 .button2{
@@ -74,9 +75,10 @@ h2{
     justify-content: center;
     align-items: center;
     font-size: 24px; 
-    a{
-        color: #000000;
-    }
+}
+
+.button2 a{
+    color: #000000;
 }
 
 .gap48{
@@ -103,4 +105,57 @@ a{
     width: 91px;
     height: 70px;
     margin: 8px;
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.widthphoto{
+    width: 635.31px;
+    height: 778.19px;
+}
+
+.foto{
+    padding-top: 152.24px;
+    padding-left: 130px;
+}
+
+.stroke1{
+    padding-top: 93px;
+    padding-left: 68px;
+}
+
+.stroke{
+    padding-top: 364.19px;
+    padding-left: 340px;
+}
+
+.star1{
+    padding-top: 62px;
+    padding-right: 100px;
+}
+
+.tag{
+    padding-top: 198px;
+    padding-left: 399px;
+}
+
+.tag1{
+    padding-top: 681px;
+    padding-left: 24px;
+}
+
+.star2{
+    padding-top: 221px;
+    padding-left: 164px;
+}
+
+.star{
+    padding-top: 624.27px;
+    left: 488px;
 }
