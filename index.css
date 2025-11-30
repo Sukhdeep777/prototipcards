@@ -58,3 +58,9 @@ img{ /*hacer que el tamaño de las imagenes tengan un tamaño maximo de 14rem*/
     min-height: 10rem; /*Ponerle max i min width aparte del height para que se vean iguales entre iguales los tamaños de las imagenes.*/
     border: 1px solid #000000;
 }
+
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
