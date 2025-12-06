@@ -1,0 +1,106 @@
+    body{
+        background-color: #E5E5E5;
+        display: flex;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .fondo{
+        width: 1440px;
+        height: 926px;
+        background: radial-gradient(circle,rgba(200, 204, 207, 1) 0%, rgba(151, 163, 163, 1) 100%);
+        position: relative;
+    }
+
+    .right{
+        position: absolute;
+        right: 0;
+        right: 64px;
+    }
+
+    .left{
+        position: absolute;
+        left: 0;
+        left: 64px;
+        bottom: 0;
+    }
+
+    .texto{
+        position: absolute;
+        top: 0;
+        left: 340px;
+        width: 756px;
+        height: 310px;
+        top: 64px;
+    }
+
+    h1{
+        font-size: 88px;
+        font-weight: bold;
+        color: #363830;
+        margin: 0;
+    }
+
+    h2{
+        font-weight: 400;
+        font-size: 24px;
+        width: 659px;
+        color: #363830;
+    }
+
+    h3{
+        background-color: #363830;
+        color: #FFFFFF;
+        width: 182px;
+        height: 66px;
+        border-radius: 36px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: normal;
+    }
+
+    h4{
+        width: 38px;
+        height: 36px;
+        font-size: 24px;
+        border-bottom: 4px solid #363830;
+    }
+
+    p{
+        font-size: 16px;
+        width: 204px;
+        height: 120px;
+        font-weight: 00;
+    }
+
+    .gap{
+        gap: 16px;
+    }
+
+    .listado{
+        background-color: #ffffff48;
+        border-radius: 144px;
+        position: absolute;
+        width: 948px;
+        height: 272px;
+        bottom: 0;
+        right: 0;
+        right: 64px;
+        bottom: 64px;
+    }
+
+    .relative{
+        position: relative;
+    }
+
+    .flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gap2{
+        gap: 64px;
+    }
+    
