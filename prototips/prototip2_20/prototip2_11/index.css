@@ -1,0 +1,6 @@
+body{ /*Un body con un fondo de color blanco*/
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+}
