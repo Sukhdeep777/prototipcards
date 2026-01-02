@@ -1,0 +1,12 @@
+body{ /*Un body con un fondo de color blanco*/
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    width: 1440px;
+    height: 1475px;
+    background-color: #FFFFFF;
+}
