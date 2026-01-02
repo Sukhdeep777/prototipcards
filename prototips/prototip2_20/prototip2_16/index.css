@@ -1,12 +1,101 @@
 body{ /*Un body con un fondo de color blanco*/
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     background-color: #E5E5E5;
     display: flex;
     justify-content: center;
+    padding: 5px;
+    margin: 0;
 }
 
 main{
-    background: linear-gradient(to bottom, #09212C, #043E49);
+    background: linear-gradient(to bottom, #081b24, #043E49);
     width: 1440px;
     height: 1024px;
+    position: relative;
+}
+
+.ia{
+    position: absolute;
+    right: 0;
+}
+
+.principal{
+    border-radius: 24px;
+    top: 193px;
+    left: 64px;
+    background: linear-gradient(to bottom right, #0000008c, #00000009);
+    position: absolute;
+    width: 724px;
+    height: 518px;
+    backdrop-filter: blur(3px); /*Para el efecto interior de la caja para que se vea nitido es decir borroso*/
+    color: #FFFFFF;
+    box-sizing: border-box; /*Para que el width i weight no se muevan i sean iguales*/
+    padding: 40px 56px;
+}
+
+h1{
+    width: 532px;
+    height: 144px;
+    font-weight: 700;
+    font-size: 64px;
+}
+
+h2{
+    font-weight: normal;
+    font-size: 26px;
+    width: 586px;
+    height: 108px;
+}
+
+h3{
+    background-color: #63E1E1;
+    color: #000000;
+    border-radius: 36px;
+    width: 182px;
+    height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.list{
+    border: 1px solid #FFFFFF;
+    background: linear-gradient(to bottom left, #0000009c, #ffffff10);
+    width: 1312px;
+    height: 171px;
+    position: absolute;
+    border-radius: 32px;
+    bottom: 62px;
+    left: 54px;
+    backdrop-filter: blur(3px);
+    padding-left: 56px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+
+.item{
+    margin-top: 24px;
+    width: 231px;
+    height: 123px;
+}
+
+h4{
+    font-size: 24px;
+    font-weight: 400;
+    width: 122px;
+    height: 15px;
+}
+
+.img{
+    width: 24px;
+    height: 2px;
+}
+
+p{
+    width: 231px;
+    height: 50px;
 }
